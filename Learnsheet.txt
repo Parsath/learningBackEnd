@@ -4,8 +4,8 @@ Day 1: 19/08/2020 13h13
         *Refreshing my memory
 
     Notes:
-        *
+        *Installed and prepared my environement
 
-WORKTIME: 
+WORKTIME: 30min 
 
-Stopping time: 
+Stopping time: Unknown
