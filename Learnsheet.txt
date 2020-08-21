@@ -16,8 +16,20 @@ Day 2: 21/08/2020 11h40
     STEP 1 IN PROGRESS
 
     Notes:
-        *
+        *Made my php work
+
+    References:
+        *Search in ARRAY/ Recherche dans un TABLEAU:
+            https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4238931-les-tableaux#/id/r-4239217
 
 WORKTIME: 
 
 Stopping time: 
+
+
+
+
+
+REFERENCES:
+    *Search in ARRAY/ Recherche dans un tableau:
+        https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4238931-les-tableaux#/id/r-4239217
