@@ -17,14 +17,15 @@ Day 2: 21/08/2020 11h40
 
     Notes:
         *Made my php work
+        *Remembered Php Basics. Now I just need to get back to coding, develop my Backend basics, remember what I learned in front-end and then start working Professionally.
 
     References:
         *Search in ARRAY/ Recherche dans un TABLEAU:
             https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4238931-les-tableaux#/id/r-4239217
 
-WORKTIME: 
+WORKTIME: 3H45
 
-Stopping time: 
+Stopping time: 19h43 21/08/2020 
 
 
 

@@ -11,16 +11,10 @@
     <title>Document</title>
 </head>
 <body>
-    <header> 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">first</a>
-                <a class="nav-item nav-link" href="#">second</a>
-                <a class="nav-item nav-link" href="#">last</a>
-            </div>
-            <span><?php echo date('d/m/Y') ?></span>
-        </nav>
-    </header>  
+
+    <header>
+        <?php include("nav.php"); ?>
+    </header>
 
     <main>
 
@@ -37,6 +31,10 @@
             $player2 = "Karim";
 
             echo $player1 . " and " . $player2;
+
+            function Baguette($name){
+                echo "Hello " . $name;
+            }
         ?>
 
         <h1>User: <?php echo $user1['username']; ?></h1>
@@ -52,6 +50,13 @@
                     <?php 
                 }
             ?>
+        </ul>
+        <ul>
+            <h1>Salut <?php echo $player1; ?></h1>
+            <h1>Wesh <?php echo $player2; ?></h1>
+            <h1><?php Baguette($player1); ?></h1>
+            <h1><?php Baguette($player2); ?></h1>
+            
         </ul>
 
         
