@@ -1,24 +1,3 @@
-.blue {
-  color: blue;
-}
-
-.red {
-  color: red;
-}
-
-.green {
-  color: green;
-}
-
-h2 {
-  text-align: center;
-}
-
-.nav_bar {
-  display: inline-block;
-  text-decoration: none;
-}
-
 ul li {
   list-style-type: none;
 }
@@ -29,11 +8,156 @@ ul li {
 }
 
 .nav-links {
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .my-item {
   margin-left: 30px;
   font-size: 2em;
+}
+
+.first-container {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: auto;
+  position: absolute;
+}
+
+.welcome {
+  text-align: center;
+  -webkit-animation-name: landing;
+          animation-name: landing;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+
+.choose-to-play {
+  text-align: center;
+  opacity: 0;
+  -webkit-animation-name: quiz;
+          animation-name: quiz;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+
+.yes-or-no {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: 0;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-animation-name: yes-no;
+          animation-name: yes-no;
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+
+.yes-button {
+  width: 15%;
+}
+
+.no-button {
+  width: 15%;
+}
+
+@-webkit-keyframes yes-no {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes yes-no {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes quiz {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes quiz {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes landing {
+  0% {
+    opacity: 0;
+    font-size: 1000%;
+  }
+  100% {
+    opacity: 1;
+    font-size: 950%;
+  }
+}
+
+@keyframes landing {
+  0% {
+    opacity: 0;
+    font-size: 1000%;
+  }
+  100% {
+    opacity: 1;
+    font-size: 950%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

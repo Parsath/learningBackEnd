@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Navigation</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light d-print"> 
@@ -11,7 +11,7 @@
             <img class="brand-image" src="brand.jpg" alt="my pp"/>
         </a>
         <div class="navbar-nav nav-links">
-            <a class="nav-item nav-link my-item" href="#">First</a>
+            <a class="nav-item nav-link my-item" href="firstlink.php?nom=Dupont&amp;prenom=Jean">First</a>
             <a class="nav-item nav-link my-item" href="#">Second</a>
             <a class="nav-item nav-link my-item" href="#">Last</a>
         </div>

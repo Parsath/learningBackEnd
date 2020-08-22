@@ -28,6 +28,21 @@ WORKTIME: 3H45
 Stopping time: 19h43 21/08/2020 
 
 
+Day 3: 22/08/2020 13h16
+
+    STEP 1 IN PROGRESS
+
+    Notes:
+        *Rembered how to Animate CSS Animations and the difference between animations & transitions.
+
+    References:
+        *
+
+WORKTIME:
+
+Stopping time:
+
+
 
 
 
