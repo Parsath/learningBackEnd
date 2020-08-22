@@ -5,6 +5,7 @@ ul li {
 .brand-image {
   max-width: 100%;
   height: 80px;
+  border-radius: 50%;
 }
 
 .nav-links {
@@ -30,8 +31,8 @@ ul li {
   text-align: center;
   -webkit-animation-name: landing;
           animation-name: landing;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-duration: 2s;

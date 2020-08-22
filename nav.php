@@ -11,7 +11,7 @@
             <img class="brand-image" src="brand.jpg" alt="my pp"/>
         </a>
         <div class="navbar-nav nav-links">
-            <a class="nav-item nav-link my-item" href="firstlink.php?nom=Dupont&amp;prenom=Jean">First</a>
+            <a class="nav-item nav-link my-item" href="index.php">Home</a>
             <a class="nav-item nav-link my-item" href="#">Second</a>
             <a class="nav-item nav-link my-item" href="#">Last</a>
         </div>

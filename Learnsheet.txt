@@ -38,9 +38,9 @@ Day 3: 22/08/2020 13h16
     References:
         *
 
-WORKTIME:
+WORKTIME: 2H33
 
-Stopping time:
+Stopping time: 17h46 22/08/2020
 
 
 

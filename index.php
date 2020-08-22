@@ -21,10 +21,10 @@
         <div class="first-container">
             <h1 class="welcome text-secondary">Welcome</h1>
             <h2 class="choose-to-play text-secondary">Do you want to play a mini-game?</h2>
-            <form>
+            <form action="journey.php" method="post">
                 <div class="yes-or-no">
-                    <button type="submit" class="btn btn-info yes-button">Yes</button>
-                    <button type="submit" class="btn btn-info no-button">No</button>
+                    <button type="text" class="btn btn-info yes-button" name="quiz" label="yes" value="yes">Yes</button>
+                    <button type="text" class="btn btn-info no-button" name="quiz" label="no" value="no">No</button>
                 </div>
             </form>
         </div>
