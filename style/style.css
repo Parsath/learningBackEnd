@@ -14,7 +14,6 @@ ul li {
 }
 
 .my-item {
-  margin-left: 30px;
   font-size: 2em;
 }
 
@@ -24,7 +23,6 @@ ul li {
   height: 100%;
   margin: auto;
   padding: auto;
-  position: absolute;
 }
 
 .welcome {
@@ -160,5 +158,52 @@ ul li {
     opacity: 1;
     font-size: 950%;
   }
+}
+
+.my-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #C6BDC8;
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.space {
+  width: 40%;
+  height: 100%;
+}
+
+.my-date {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.icons {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.fa {
+  margin: auto;
+  padding: 50px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
 }
 /*# sourceMappingURL=style.css.map */

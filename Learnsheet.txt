@@ -64,15 +64,17 @@ Day 5: 24/08/2020 12h32
     STEP 1 IN PROGRESS
 
     Notes:
-        *
+        *For now, remembered how to create viable footers without relying on a framework whatsoever.
 
     References:
         *Edit CHMOD in our server to allow file modifications:
             https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913492-lisez-et-ecrivez-dans-un-fichier#/id/r-913378
+        *Reading & editing a FILE in PHP:
+            https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913492-lisez-et-ecrivez-dans-un-fichier
 
-WORKTIME:
+WORKTIME: 2H18M
 
-Stopping time: 24/08/2020
+Stopping time: 24/08/2020 14h53
 
 
 
@@ -84,3 +86,5 @@ REFERENCES:
         https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4239476-session-cookies
     *Edit CHMOD in our server to allow file modifications:
         https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913492-lisez-et-ecrivez-dans-un-fichier#/id/r-913378
+    *Reading & editing a FILE in PHP:
+        https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913492-lisez-et-ecrivez-dans-un-fichier
