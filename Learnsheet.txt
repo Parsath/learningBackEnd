@@ -43,9 +43,44 @@ WORKTIME: 2H33
 Stopping time: 17h46 22/08/2020
 
 
+Day 4: 23/08/2020 14h55
+
+    STEP 1 IN PROGRESS
+
+    Notes:
+        *
+
+    References:
+        *Sessions & Cookies: 
+            https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4239476-session-cookies
+
+WORKTIME: 30M
+
+Stopping time: Unknown
+
+
+Day 5: 24/08/2020 12h32
+
+    STEP 1 IN PROGRESS
+
+    Notes:
+        *
+
+    References:
+        *Edit CHMOD in our server to allow file modifications:
+            https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913492-lisez-et-ecrivez-dans-un-fichier#/id/r-913378
+
+WORKTIME:
+
+Stopping time: 24/08/2020
+
 
 
 
 REFERENCES:
     *Search in ARRAY/ Recherche dans un tableau:
         https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4238931-les-tableaux#/id/r-4239217
+    *Sessions & Cookies:
+        https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4239476-session-cookies
+    *Edit CHMOD in our server to allow file modifications:
+        https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913492-lisez-et-ecrivez-dans-un-fichier#/id/r-913378
