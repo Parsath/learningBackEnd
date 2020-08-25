@@ -16,7 +16,7 @@
             <a class="nav-item nav-link ml-5 my-item" href="#">Second</a>
             <a class="nav-item nav-link ml-5 my-item" href="#">Last</a>
         </div>
-        <span class="badge badge-primary"><?php echo date('d/m/Y') ?></span>
+        <a class="btn btn-outline-dark" href="login.php" role="button">Login</a>
     </nav>
     
 </body>

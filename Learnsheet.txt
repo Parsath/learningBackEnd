@@ -77,6 +77,23 @@ WORKTIME: 2H18M
 Stopping time: 24/08/2020 14h53
 
 
+Day 6: 25/08/2020 22h12 
+
+    STEP 1 IN PROGRESS
+
+    Notes:
+        *I'm learning how to use a database correctly. I would say I'm just remembering, but in truth, I actually am learning a lot.
+        *It's 23h53, I'm tired rn but I want to finish creating my login/signing up system for the website... I won't be doing it today, I hope I'll have time to finish it tomorow before leaving home.
+
+    References:
+        *SQL Requests: 
+            https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/914293-lisez-des-donnees#/id/r-2175199
+
+WORKTIME: 1H32
+
+Stopping time: 25/08/2020 23h53
+
+
 
 
 REFERENCES:
@@ -88,3 +105,5 @@ REFERENCES:
         https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913492-lisez-et-ecrivez-dans-un-fichier#/id/r-913378
     *Reading & editing a FILE in PHP:
         https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913492-lisez-et-ecrivez-dans-un-fichier
+    *SQL Requests: 
+        https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/914293-lisez-des-donnees#/id/r-2175199
