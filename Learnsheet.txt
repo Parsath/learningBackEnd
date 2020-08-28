@@ -94,6 +94,22 @@ WORKTIME: 1H32
 Stopping time: 25/08/2020 23h53
 
 
+Day 7: 28/08/2020 16h08
+
+    STEP 1 IN PROGRESS
+
+    Notes:
+        *Going to take a pause, Now Understanding how to submit without refresh with AJAX.
+
+    References:
+        *Submit without refresh with AJAX:
+            https://code.tutsplus.com/tutorials/submit-a-form-without-page-refresh-using-jquery--net-59#:~:text=By%20now%2C%20I%20think%20you,you%20are%20good%20to%20go.
+
+WORKTIME:
+
+Stopping time: 28/08/2020 
+
+
 
 
 REFERENCES:
@@ -107,3 +123,5 @@ REFERENCES:
         https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913492-lisez-et-ecrivez-dans-un-fichier
     *SQL Requests: 
         https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/914293-lisez-des-donnees#/id/r-2175199
+    *Submit without refresh with AJAX:
+        https://code.tutsplus.com/tutorials/submit-a-form-without-page-refresh-using-jquery--net-59#:~:text=By%20now%2C%20I%20think%20you,you%20are%20good%20to%20go.

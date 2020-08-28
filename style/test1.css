@@ -48,8 +48,8 @@ ul li {
   opacity: 0;
   -webkit-animation-name: quiz;
           animation-name: quiz;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
   -webkit-animation-iteration-count: 1;
@@ -78,8 +78,8 @@ ul li {
       justify-content: space-around;
   -webkit-animation-name: yes-no;
           animation-name: yes-no;
-  -webkit-animation-delay: 1.6s;
-          animation-delay: 1.6s;
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
   -webkit-animation-iteration-count: 1;
@@ -158,6 +158,10 @@ ul li {
     opacity: 1;
     font-size: 950%;
   }
+}
+
+.error {
+  display: none;
 }
 
 .my-footer {
