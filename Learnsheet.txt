@@ -115,10 +115,11 @@ Day 8: 29/08/2020 12h33
     STEP 1 IN PROGRESS
 
     Notes:
-        *
+        *Created my Login Function, need to take a break. 
 
     Reference:
-        *
+        *Migrate website to wordpress:
+            https://tulipemedia.com/migration-transferer-child-multisite-single-site-wordpress-tutoriel/
 
 WORKTIME:
 
@@ -140,3 +141,5 @@ REFERENCES:
         https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/914293-lisez-des-donnees#/id/r-2175199
     *Submit without refresh with AJAX:
         https://code.tutsplus.com/tutorials/submit-a-form-without-page-refresh-using-jquery--net-59#:~:text=By%20now%2C%20I%20think%20you,you%20are%20good%20to%20go.
+    *Migrate website to wordpress:
+        https://tulipemedia.com/migration-transferer-child-multisite-single-site-wordpress-tutoriel/

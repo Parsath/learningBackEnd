@@ -22,7 +22,7 @@
     <?php include('nav.php');?>
 
     <div class="container mt-5 contact_form">
-        <form name="contact" action="">
+        <form name="contact" id="contact" onsubmit="return ajaxgo()" action="">
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="email">Email address</label>
