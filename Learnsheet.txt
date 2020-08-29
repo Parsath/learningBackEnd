@@ -105,9 +105,24 @@ Day 7: 28/08/2020 16h08
         *Submit without refresh with AJAX:
             https://code.tutsplus.com/tutorials/submit-a-form-without-page-refresh-using-jquery--net-59#:~:text=By%20now%2C%20I%20think%20you,you%20are%20good%20to%20go.
 
+WORKTIME: 1H23
+
+Stopping time: 28/08/2020 18h30 
+
+
+Day 8: 29/08/2020 12h33
+
+    STEP 1 IN PROGRESS
+
+    Notes:
+        *
+
+    Reference:
+        *
+
 WORKTIME:
 
-Stopping time: 28/08/2020 
+Stopping time: 29/08/2020
 
 
 
