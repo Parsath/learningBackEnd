@@ -31,6 +31,10 @@
                     <button type="text" class="btn btn-info no-button" name="quiz" label="no" value="no">No</button>
                 </div>
             </form>
+            <div class="joystick-container">   
+                <img class="joystick" src="images/joystick.png"/>
+            </div>
+            
         </div>
 
         <?php include("footer.php"); ?>

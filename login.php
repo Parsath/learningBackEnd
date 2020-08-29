@@ -21,20 +21,26 @@
 
     <?php include('nav.php');?>
 
-    <div class="container mt-5 contact_form">
+    <div class="container contact_form" id="contact_form">
+        <h1 class="text-dark login-title">Login</h1>
         <form name="contact" id="contact" onsubmit="return ajaxgo()" action="">
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="email">Email address</label>
                     <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-                    <label class="error" for="email" id="email_error">This field is required.</label>
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
 
                 <div class="form-group col-md-6">
                     <label for="name">Name</label>
                     <input type="text" class="form-control" id="name" placeholder="Your nickname/name">
                     <label class="error" for="name" id="name_error">This field is required.</label>
+                </div>
+
+                <div class="form-check ml-1">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label " for="dropdownCheck">
+                        Remember me
+                    </label>
                 </div>
 
             </div>
@@ -44,12 +50,43 @@
         </form>
     </div>
 
+    <!-- Popup menu for signing up Here -->
+
+    <div class="dropdown">
+        <button id="dLabel" class="btn btn-outline-dark signup-pop-btn">Sign Up!</button>
+        <img class="cursor" src="images/cursor.png"/>
+    </div>
+    
+    <!-- <div class="dropdown-men">
+        <button class="btn times-signup "><i class="fa fa-times white" aria-hidden="true"></i></button>
+        <div class="signup-container">
+            <form class="px-4 py-3 signup-form">
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="email@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                        Remember me
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary lets-go">Let's go!</button>
+            </form>
+        </div>
+    </div> -->
+
+    
+
     <!-- Dropdown menu for signing up Here -->
 
     <!-- <div class="dropdown">
-        <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Dropdown trigger
-        </button>
+        <button id="dLabel" class="btn btn-outline-dark signup-pop-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Sign Up!</button>
         <div class="dropdown-menu">
             <form class="px-4 py-3">
                 <div class="form-group">

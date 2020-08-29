@@ -116,14 +116,16 @@ Day 8: 29/08/2020 12h33
 
     Notes:
         *Created my Login Function, need to take a break. 
+        *Need to work on the Server side sign up
+        *Fixed my sign up and Login buttons, everything front-endwise is working, now I just need to work on the back-end. 
 
     Reference:
         *Migrate website to wordpress:
             https://tulipemedia.com/migration-transferer-child-multisite-single-site-wordpress-tutoriel/
 
-WORKTIME:
+WORKTIME: 5H15 
 
-Stopping time: 29/08/2020
+Stopping time: 29/08/2020 22h49
 
 
 

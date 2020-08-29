@@ -1,3 +1,7 @@
+<?php
+    if(!isset($_SESSION['login']))
+        header("Location: login.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,9 +15,5 @@
     <title>Quiz</title>
 </head>
 <body>
-    <?php
-        if(!isset($_SESSION['login']))
-            header("Location: login.php");
-    ?>
 </body>
 </html>
