@@ -119,13 +119,28 @@ Day 8: 29/08/2020 12h33
         *Need to work on the Server side sign up
         *Fixed my sign up and Login buttons, everything front-endwise is working, now I just need to work on the back-end. 
 
-    Reference:
+    References:
         *Migrate website to wordpress:
             https://tulipemedia.com/migration-transferer-child-multisite-single-site-wordpress-tutoriel/
 
 WORKTIME: 5H15 
 
 Stopping time: 29/08/2020 22h49
+
+
+Day 9: 30/08/2020 14h30
+
+    STEP 1 IN PROGRESS
+
+    Notes:
+        *Fixed the front-end side of disconnecting and staying connected. Now I need to add the back end side of signing-up.
+
+    References:
+        *
+
+WORKTIME: 2h27
+
+Stopping time: 30/08/2020
 
 
 

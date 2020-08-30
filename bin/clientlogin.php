@@ -10,7 +10,11 @@
     // echo $_POST['name'] . '         ' . $_POST['email'];
 
     if( $login )
+    {
         echo 'OK';
+        $_SESSION['name'] = $_POST['name'];
+        $_SESSION['email'] = $_POST['email'];
+    }
     else 
         echo 'Login invalide';
 

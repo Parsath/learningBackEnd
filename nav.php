@@ -22,24 +22,43 @@
             <a class="nav-item nav-link ml-5 my-item" href="#">Second</a>
             <a class="nav-item nav-link ml-5 my-item" href="#">Last</a>
         </div>
-        <div class="login-signup">
-            <button class="btn btn-dark signup-nav-btn">Signup</button>
-            <a class="btn btn-outline-dark btn-login" href="login.php" role="button">Login</a>
-        </div>
+        <?php 
+            if(!isset($_SESSION['name']))
+            {
+                ?>
+                    <div class="login-signup">
+                        <button class="btn btn-dark signup-nav-btn">Signup</button>
+                        <a class="btn btn-outline-dark btn-login" href="login.php" role="button">Login</a>
+                    </div>
+                <?php
+            }
+            else
+            {
+                ?>
+                    <div class="signedup">
+                        <h4 class="text text-dark nickname"><?php echo $_SESSION['name'] ?></h2>
+                        <a href="disconnect.php"><button class="btn btn-outline-dark disconnect-btn">Disconnect</button></a>
+                    </div>
+                <?php
+            }
+
+            ?>
     </nav>
 
     <div class="dropdown-men">
         <button class="btn times-signup "><i class="fa fa-times white" aria-hidden="true"></i></button>
         <div class="signup-container">
-            <form class="px-4 py-3 signup-form" action="">
+            <form class="px-4 py-3 signup-form" id="signup-form" onsubmit="return signup()" action="">
                 <div class="form-group">
-                    <label for="email_sub">Email address</label>
-                    <input type="email" class="form-control" id="email_sub" placeholder="email@example.com">
+                    <label for="email-sub">Email address</label>
+                    <input type="email" class="form-control" id="email-sub" placeholder="email@example.com">
+                    <label class="error" for="email-sub" id="email_error-sub">This field is required.</label>
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
-                    <label for="name_sub">Name</label>
-                    <input type="text" class="form-control" id="name_sub" placeholder="Name">
+                    <label for="name-sub">Name</label>
+                    <input type="text" class="form-control" id="name-sub" placeholder="Name">
+                    <label class="error" for="name-sub" id="name_error-sub">This field is required.</label>
                 </div>
                 <button type="submit" class="btn btn-primary lets-go">Let's go!</button>
             </form>

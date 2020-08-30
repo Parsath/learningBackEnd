@@ -31,6 +31,17 @@ ul li
 .btn-login
     margin-left: 20px
 
+.signedup
+    display: flex
+    justify-content: space-between
+    padding: 20px
+    align-content: center
+
+.nickname
+
+.disconnect-btn    
+    margin-left: 20px
+
 
 
 ////////////////////////////// INDEX //////////////////////////////
@@ -130,7 +141,7 @@ ul li
     animation-play-state: running
     animation-fill-mode: forwards
     animation-direction: normal
-
+        
 @keyframes joystick
     0%
         opacity: 0
@@ -138,6 +149,15 @@ ul li
     100%
         opacity: 0.7
         transform: rotate(-15deg)
+
+.joy
+    transition-duration: 0.25s
+    transition-timing-function: ease-out
+    transition-property: all
+
+.joy:hover
+    transform: rotateY(15deg)
+    transform: scale(1.2)
         
 
 
@@ -327,3 +347,12 @@ ul li
 
 .fa:hover
     opacity: 0.7
+
+
+
+////////////////////////////// DISCONNECT //////////////////////////////
+
+
+
+.disconnect-confirm
+    text-align: center

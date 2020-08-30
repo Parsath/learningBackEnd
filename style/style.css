@@ -36,6 +36,22 @@ ul li {
   margin-left: 20px;
 }
 
+.signedup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.disconnect-btn {
+  margin-left: 20px;
+}
+
 .first-container {
   display: block;
   width: 100%;
@@ -237,6 +253,22 @@ ul li {
     -webkit-transform: rotate(-15deg);
             transform: rotate(-15deg);
   }
+}
+
+.joy {
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  -webkit-transition-property: all;
+  transition-property: all;
+}
+
+.joy:hover {
+  -webkit-transform: rotateY(15deg);
+          transform: rotateY(15deg);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .dropdown {
@@ -533,5 +565,9 @@ ul li {
 
 .fa:hover {
   opacity: 0.7;
+}
+
+.disconnect-confirm {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

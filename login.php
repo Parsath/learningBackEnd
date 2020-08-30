@@ -1,6 +1,9 @@
 <?php
     session_start();
     include('connexion.php');
+    if(isset($_SESSION['name']))
+        header("Location: index.php");
+        
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,6 +31,7 @@
                 <div class="form-group col-md-6">
                     <label for="email">Email address</label>
                     <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                    <label class="error" for="email" id="email_error">This field is required.</label>
                 </div>
 
                 <div class="form-group col-md-6">

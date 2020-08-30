@@ -1,5 +1,20 @@
 <?php
     session_start();
+    if(isset($_POST['quiz']) && $_POST['quiz'] == "yes")
+    {
+        if(!isset($_SESSION['name']))
+            header("Location: login.php");
+    } 
+    else if(isset($_POST['quiz']) && $_POST['quiz'] == "no")
+    {
+        header("Location: cv.php");
+    }
+    else
+    {
+        ?>
+            <h1>Erreur 404</h1>
+        <?php
+    }
 
 ?>
 <!DOCTYPE html>
@@ -22,27 +37,6 @@
 
     <main>
         <?php 
-            if(isset($_POST['quiz']) && $_POST['quiz'] == "yes")
-            {
-                ?>
-                    <?php 
-                        include("yes.php");
-                    ?>
-                    <h1>Yes</h1>
-                <?php
-            } 
-            else if(isset($_POST['quiz']) && $_POST['quiz'] == "no")
-            {
-                ?>
-                    <h1>No</h1>
-                <?php
-            }
-            else
-            {
-                ?>
-                    <h1>Erreur 404</h1>
-                <?php
-            }
         ?>
     </main>
 
