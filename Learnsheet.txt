@@ -134,13 +134,14 @@ Day 9: 30/08/2020 14h30
 
     Notes:
         *Fixed the front-end side of disconnecting and staying connected. Now I need to add the back end side of signing-up.
+        *Fixed Everything Signup/Login like, now I need to fix the " search in database before signing someone up " part. and I'm ready to start creating my mini-game and CV
 
     References:
         *
 
-WORKTIME: 2h27
+WORKTIME: 3H20
 
-Stopping time: 30/08/2020
+Stopping time: 30/08/2020 22h30
 
 
 

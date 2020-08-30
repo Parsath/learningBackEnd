@@ -568,6 +568,31 @@ ul li {
 }
 
 .disconnect-confirm {
+  margin-top: 100px;
   text-align: center;
+}
+
+.container-signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-top: 100px;
+  height: 300px;
+  background-color: rgba(255, 192, 203, 0.5);
+}
+
+.signup-confirm {
+  text-align: center;
+}
+
+.home-signup {
+  font-size: 2em;
+  margin: auto;
 }
 /*# sourceMappingURL=test1.css.map */

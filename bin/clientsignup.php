@@ -16,7 +16,16 @@
 
 
     if($emailVerification==$_POST['email-sub'] && $nameVerification==$_POST['name-sub'])
+    {
+        $req = $bdd->prepare('INSERT INTO clients(name, email) VALUES(:name, :email)');
+        $req->execute(array(
+            'name' => $nameVerification,
+            'email' => $emailVerification
+        ));
+        $_SESSION['name'] = $nameVerification;
+        $_SESSION['email'] = $emailVerification;
         echo "OK";
+    }
     else if( $emailVerification != $_POST['email-sub'])
         echo $emailVerification;
     else if( $nameVerification != $_POST['name-sub'])

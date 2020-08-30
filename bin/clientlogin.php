@@ -7,8 +7,6 @@
 
     $login = $req->fetch();
 
-    // echo $_POST['name'] . '         ' . $_POST['email'];
-
     if( $login )
     {
         echo 'OK';

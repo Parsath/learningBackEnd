@@ -47,8 +47,8 @@
 
     <div class="dropdown-men">
         <button class="btn times-signup "><i class="fa fa-times white" aria-hidden="true"></i></button>
-        <div class="signup-container">
-            <form class="px-4 py-3 signup-form" id="signup-form" onsubmit="return signup()" action="">
+        <div class="signup-container" id="signup-form">
+            <form class="px-4 py-3 signup-form" onsubmit="return signup()" action="">
                 <div class="form-group">
                     <label for="email-sub">Email address</label>
                     <input type="email" class="form-control" id="email-sub" placeholder="email@example.com">

@@ -36,6 +36,23 @@ $(function (){
 
 
 
+//////////////////////////////////// SIGNUP CONFIRM ////////////////////////////////////
+
+
+
+$(function (){
+    $("#home-signup").click(function(){
+
+        console.log("wesh");
+        window.location.replace("http://localhost/learningbackend/index.php");
+    
+    });
+});
+
+
+
+
+
 //////////////////////////////////// LOGIN ////////////////////////////////////
 
 
@@ -56,8 +73,8 @@ function ajaxgo(){
         {
             console.log(this.response);
             $('#contact_form').html("<div id='message'></div>");
-            $('#message').html("<h2>Contact Form Submitted!</h2>").append("<p>We will be in touch soon.</p>").hide().fadeIn(1500, function(){
-                $('#message').append("<img id='checkmark' src='images/check.png'/>");
+            $('#message').html("<h2>Welcome Friend.</h2>").append("<p>We are now redirecting you home.</p>").hide().fadeIn(1500, function(){
+                $('#message');
             });
             setTimeout(
                 function(){
@@ -100,6 +117,7 @@ function signup(){
         if(this.response == "OK")
         {
             console.log("OK");
+            window.location.assign("http://localhost/learningbackend/signedUp.php");
         }
         else
         {
@@ -150,18 +168,3 @@ $(function() {
 
 
 document.getElementById("disconnect-page").addEventListener("load", location.reload() );
-
-// document.getElementById("disconnect-page").addEventListener("load", 
-//     function(){
-//         setTimeout(
-//             function(){
-//                 location.reload();}
-//                 , 2000
-//         );
-//     }
-// );
-
-// ("#disconnect-page").onload(function(){
-//     console.log("cheh");
-    
-// });
