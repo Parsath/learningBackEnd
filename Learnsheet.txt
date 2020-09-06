@@ -167,7 +167,7 @@ Day 11: 14h35 05/09/2020
     STEP 2:
         -Learn Professional backend and frontend
             STEP 2-1: Angular
-            STEP 2-2: Symphony
+            STEP 2-2: PHP + Symphony
 
     Notes:
         *Just got my first job. The Website must be ready for for the 01(First) of 11(November).
@@ -178,6 +178,21 @@ Day 11: 14h35 05/09/2020
 WORKTIME: 1H27M
 
 Stopping time: 05/09/2020 16h46
+
+
+Day 12: 15h47 06/09/2020
+
+    STEP 2 IN PROGRESS
+
+    Notes: 
+        *
+
+    References: 
+        *
+
+WORKTIME: 
+
+Stopping time: 06/09/2020 
 
             
 
