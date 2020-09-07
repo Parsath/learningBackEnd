@@ -190,9 +190,9 @@ Day 12: 15h47 06/09/2020
     References: 
         *
 
-WORKTIME: 
+WORKTIME: 2H08
 
-Stopping time: 06/09/2020 
+Stopping time: 06/09/2020 21h22
 
             
 

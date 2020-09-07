@@ -22,23 +22,25 @@
 
     <main>
 
-        <div class="first-container">
-            <h1 class="welcome text-secondary">Welcome</h1>
-            <h2 class="choose-to-play text-secondary">Do you want to play a mini-game?</h2>
-            <form action="journey.php" method="post">
-                <div class="yes-or-no">
-                    <button type="text" class="btn btn-info yes-button" name="quiz" label="yes" value="yes">Yes</button>
-                    <button type="text" class="btn btn-info no-button" name="quiz" label="no" value="no">No</button>
-                </div>
-            </form>
-            <div class="joystick-container">  
-                <div class="joy"> 
-                    <img class="joystick" src="images/joystick.png"/>
-                </div> 
+        <div class="container-before">
+            <div class="first-container">
+                <h1 class="welcome text-secondary">Welcome</h1>
+                <h2 class="choose-to-play text-secondary">Do you want to play a mini-game?</h2>
+                <form action="journey.php" method="post">
+                    <div class="yes-or-no">
+                        <button type="text" class="btn btn-info yes-button" name="quiz" label="yes" value="yes">Yes</button>
+                        <button type="text" class="btn btn-info no-button" name="quiz" label="no" value="no">No</button>
+                    </div>
+                </form>
+                <div class="joystick-container">  
+                    <div class="joy"> 
+                        <img class="joystick" src="images/joystick.png"/>
+                    </div> 
+                </div>    
             </div>
-            
         </div>
 
+        
         <?php include("footer.php"); ?>
     </main>
 </body>
